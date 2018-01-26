@@ -10,11 +10,13 @@ I plan for this repo to become a resource for learning about algorthims and data
 I want anyone to be able to contribute and add more interesting algorithms/data structures as the repo grows.
 If you're interested in contributing, read the steps outlined [here](#contributing).
 
+The code will be written using whatever language the writer prefers as the main purpose of this isn't about learning a specific programming language but about understanding the concepts behind the algorithms and data structures.
+
 ## Table of Contents
 
-### Strings
-- [Determine if a string is a plaindrome (isPalindrome)](http://example.com)
+### String
+- [Determine if a string is a plaindrome (isPalindrome)](/String/isPlaindrome)
 
 ## Contributing
 
-TBD
+WORK IN PROGRESS

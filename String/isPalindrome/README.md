@@ -66,6 +66,11 @@ Thus we have devised a much better algorithm, let's code it up!
 
 ```cpp
 bool is_palindrome(const std::string &str) {
+    // Since using unsigned we don't want to do bad things when 
+    // doing str.size() - 1, so if size  == 0, we can either
+    // consider the empty string a palindrome or not, you decide!
+    if (str.size() == 0) return true;
+    
     unsigned b = 0;
     unsigned e = str.size() - 1;
     while (b < e) {

@@ -17,10 +17,10 @@ Example:
 
 ```cpp
 bool is_palindrome(const std::string &str) {
-	// Create a copy of sent string but in reverse
-	std::string reversed(str.rbegin(), str.rend());
-	// If strings are equal then we are a palindrome
-	return reversed == str;
+    // Create a copy of sent string but in reverse
+    std::string reversed(str.rbegin(), str.rend());
+    // If strings are equal then we are a palindrome
+    return reversed == str;
 }
 ```
 
@@ -66,14 +66,14 @@ Thus we have devised a much better algorithm, let's code it up!
 
 ```cpp
 bool is_palindrome(const std::string &str) {
-	unsigned b = 0;
-	unsigned e = str.size() - 1;
-	while (b < e) {
-		if (str[b] != str[e]) return false;
-		++b; --e;
-	}
+    unsigned b = 0;
+    unsigned e = str.size() - 1;
+    while (b < e) {
+	if (str[b] != str[e]) return false;
+	++b; --e;
+    }
 	
-	return true;
+    return true;
 }
 ```
 The above does the process described in our algorithm, using indices to the string instead of "pointers". However, this can be quickly rewritten to use C++ iterators, pointers, or whatever you would like to use for traversal.

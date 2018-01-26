@@ -15,7 +15,8 @@ The code will be written using whatever language the writer prefers as the main 
 ## Table of Contents
 
 ### String
-- [Determine if a string is a plaindrome (isPalindrome)](/String/isPalindrome)
+- [Determine if string is a plaindrome](/String/isPalindrome)
+- [Determine if string is a palindrome with special characters ](/String/isPalindromeExpanded)
 
 ## Contributing
 

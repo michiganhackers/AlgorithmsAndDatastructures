@@ -30,7 +30,7 @@ bool is_palindrome(const std::string &str) {
        while (!isalpha(str[e]) && b < e)--e;
        if (tolower(str[b]) != tolower(str[e])) return false;
        ++b; --e;
-	}
+   }
 	return true;
 }
 ```

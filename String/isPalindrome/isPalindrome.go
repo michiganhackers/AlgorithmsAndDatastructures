@@ -7,13 +7,13 @@ import (
 
 func isPalindrome(str string) bool {
 	front := 0
-	end := len(str) - 1
-	for front < end {
-		if str[front] != str[end] {
+	back := len(str) - 1
+	for front < back {
+		if str[front] != str[back] {
 			return false
 		}
 		front++
-		end--
+		back--
 	}
 	return true
 }

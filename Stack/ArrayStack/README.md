@@ -50,8 +50,6 @@ As you can see this is fairly straight forward!
 Here is an implementation in C++:
 
 ```cpp
-#include <iostream>
-
 template <class T>
 class ArrayStack {
 public: 

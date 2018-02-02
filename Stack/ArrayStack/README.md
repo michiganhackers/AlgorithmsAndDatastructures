@@ -103,23 +103,7 @@ private:
         delete[] array;
         array = newArr;
     }
-    };
-
-
-int main() {
-    // Create a stack of ints
-    ArrayStack<int> stack;
-    stack.push(3);
-    stack.push(2);
-    stack.push(1);
-
-    std::cout << "Top of stack: " << stack.top() << std::endl;
-
-    while (!stack.empty()) {
-        std::cout << stack.top() << std::endl;
-        stack.pop();
-    }
-}
+};
 ```
 
 One important thing to note is I didn't implement copy/assignment constructors/operators. I'll leave this up to the reader, remember deep copies of the members will be required here.

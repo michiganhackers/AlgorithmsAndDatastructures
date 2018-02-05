@@ -10,22 +10,22 @@ This a common question asked by interviewers to see if you understand how pointe
 ```cpp
 // This reverses the list as well but uses O(n) space, no bueno
 Node * reverse_list_naive(Node *head) {
-	if (!head) return nullptr;
+    if (!head) return nullptr;
 	
-	std::vector<Node *> vec;
+    std::vector<Node *> vec;
 	
-	while (head) {
-		vec.push_back(head);
-		head = head->next;
-	}
-	
-	for (int i = vec.size() - 1; i > 0; --i) {
-		vec[i]->next = vec[i - 1];
-	}
-	// Make old head the new tail
-	vec[0]->next = nullptr;
-	
-	return vec.back();
+    while (head) {
+    	vec.push_back(head);
+	head = head->next;
+    }
+
+    for (int i = vec.size() - 1; i > 0; --i) {
+	vec[i]->next = vec[i - 1];
+    }
+    // Make old head the new tail
+    vec[0]->next = nullptr;
+
+   return vec.back();
 }
 ```
 
@@ -62,21 +62,21 @@ Here is the above algorithm in code:
 ```cpp
 // Reverses the list and returns a pointer to the new head
 Node * reverse_list(Node *head) {
-	// Edge case
-	if (!head) return nullptr;
-	
-	Node *prev = nullptr;
-	Node *curr = head;
-	Node *next = nullptr;
-	
-	while (curr) {
-		next = curr->next;
-		curr->next = prev;
-		prev = curr;
-		curr = next;
-	}
-	
-	return prev;
+    // Edge case
+    if (!head) return nullptr;
+    
+    Node *prev = nullptr;
+    Node *curr = head;
+    Node *next = nullptr;
+    
+    while (curr) {
+    	next = curr->next;
+	curr->next = prev;
+	prev = curr;
+	curr = next;
+    }
+    
+    return prev;
 }
 ```
 

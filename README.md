@@ -18,6 +18,9 @@ The code will be written using whatever language the writer prefers as the main 
 - [Determine if string is a plaindrome](/String/isPalindrome)
 - [Determine if string is a palindrome with special characters ](/String/isPalindromeExpanded)
 
+### Linked-List
+- [Reverse a linked-list](/LinkedList/reverseList)
+
 ### Stack
 - [Implement a stack using an array](/Stack/ArrayStack)
 
@@ -50,5 +53,5 @@ __Just give me a checklist man, I hate reading...__
 - [ ] Make sure directories are structured in a clean way, that is, `Topic/algorithm/` example: `String/isPalindrome/`
 - [ ] Include a detailed README, take a loot at [this](/String/isPalindrome) for an example.
 - [ ] Include a source file with neat code.
-- [ ] Update this (main) README file with your changes, that is adding a link to the algorithm. 
+- [ ] Update this (main) README file with your changes, that is adding a link to the algorithm.
 - [ ] Create a pull request so we can merge your changes!

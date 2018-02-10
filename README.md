@@ -17,12 +17,14 @@ The code will be written using whatever language the writer prefers as the main 
 ### String
 - [Determine if string is a plaindrome](/String/isPalindrome)
 - [Determine if string is a palindrome with special characters ](/String/isPalindromeExpanded)
+- [Are parenthesis balanced](/Stack/BalancedParenthesis)
 
 ### Linked-List
 - [Reverse a linked-list](/LinkedList/reverseList)
 
 ### Stack
 - [Implement a stack using an array](/Stack/ArrayStack)
+- [Are parenthesis balanced](/Stack/BalancedParenthesis)
 
 ### Dynamic Programming
 - [Best price for rod](/DynamicProgramming/rodCutting)

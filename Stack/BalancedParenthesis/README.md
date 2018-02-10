@@ -54,41 +54,41 @@ Here is an implementation in C++:
 ```cpp
 // O(n) space
 bool is_balanced(const std::string &str) {
-	std::stack<char> stack;
-	for (char c : str) {
-		switch (c) {
-			case '(':
-				stack.push(c);
-				break;
-			case ')':
-				// Don't pop from empty stack
-				if (stack.empty()) return false;
-				stack.pop();
-				break;
+    std::stack<char> stack;
+    for (char c : str) {
+        switch (c) {
+            case '(':
+                stack.push(c);
+                break;
+            case ')':
+                // Don't pop from empty stack
+                if (stack.empty()) return false;
+                stack.pop();
+                break;
 		}	
 	}
-	
-	return stack.size() == 0;
+    
+    return stack.size() == 0;
 }
 
 // O(1) space
 bool is_balanced2(const std::string &str) {
 	std::string::size_type i = 0;
 		
-	for (char c : str) {
-		switch (c) {
-			case '(':
-				++i;
-				break;
-			case ')':
-				// Don't 'underflow'
-				if (i == 0) return false;
-				--i;
-				break;
-		}	
-	}
-	
-	return i == 0;
+    for (char c : str) {
+        switch (c) {
+            case '(':
+                ++i;
+                break;
+            case ')':
+                // Don't 'underflow'
+                if (i == 0) return false;
+                --i;
+                break;
+        }	
+    }
+
+    return i == 0;
 }
 ```
 

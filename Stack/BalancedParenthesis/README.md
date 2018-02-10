@@ -55,7 +55,6 @@ Here is an implementation in C++:
 // O(n) space
 bool is_balanced(const std::string &str) {
 	std::stack<char> stack;
-	
 	for (char c : str) {
 		switch (c) {
 			case '(':

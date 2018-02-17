@@ -16,26 +16,26 @@ An example of seletion sort is detailed below:
 
 ```
 Arr = [ 5, 10, 30, 20 ]
-UnsortedSub = 0 (index)
+SortedSub = 0 (index)
 Min = 0 (index)
 
 findMin(Arr) -> 0, this returns the index of the min element in the array, in this case 0.
 
-Swap: UnsortedSub with Min, in this case nothing happens
+Swap: SortedSub with Min, in this case nothing happens
 
 Arr = [ 5, 10, 30, 20 ]
-UnsortedSub = 1
+SortedSub = 1
 Min = 1
 
 In this case the same as the previous example happens, 10 is swapped with 10
 
 Arr = [ 5, 10, 30, 20 ]
-UnsortedSub = 2
+SortedSub = 2
 Min = 2
 
 findMin(Arr) -> 3
 
-Thus we now swap UnsortedSub (2) with Min (3), and we get the fully sorted array:
+Thus we now swap SortedSub (2) with Min (3), and we get the fully sorted array:
 
 Arr = [ 5, 10, 20, 30 ]
 ```

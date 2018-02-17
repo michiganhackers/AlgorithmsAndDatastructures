@@ -8,10 +8,10 @@ function selectionSort(arr) {
 			if (arr[j] < arr[min]) min = j
 		}
 
-		// Swap
-		let temp = arr[sorted]
-		arr[sorted] = arr[min]
-		arr[min] = temp
+        // Swap
+        let temp = arr[sorted]
+        arr[sorted] = arr[min]
+        arr[min] = temp
         // Increase the sorted "sub-array" index
         sorted += 1
 	}

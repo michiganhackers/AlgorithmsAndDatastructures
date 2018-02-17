@@ -19,6 +19,9 @@ The code will be written using whatever language the writer prefers as the main 
 - [Determine if string is a palindrome with special characters ](/String/isPalindromeExpanded)
 - [Are parenthesis balanced](/Stack/BalancedParenthesis)
 
+### Sorting
+- [Bubble sort](/Sorting/bubbleSort)
+
 ### Linked-List
 - [Reverse a linked-list](/LinkedList/reverseList)
 

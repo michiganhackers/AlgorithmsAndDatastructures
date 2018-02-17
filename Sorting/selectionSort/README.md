@@ -49,7 +49,7 @@ function selectionSort(arr) {
 	for (let i = 0; i < arr.length; ++i) {
 		let min = i
 
-        for (let j = i + 1; j < arr.length; ++j) {
+		for (let j = i + 1; j < arr.length; ++j) {
 			if (arr[j] < arr[min]) min = j
 		}
 
@@ -57,8 +57,8 @@ function selectionSort(arr) {
 		let temp = arr[sorted]
 		arr[sorted] = arr[min]
 		arr[min] = temp
-        // Increase the sorted "sub-array" index
-        sorted += 1
+		// Increase the sorted "sub-array" index
+		sorted += 1
 	}
 }
 ```

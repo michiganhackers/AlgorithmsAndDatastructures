@@ -22,6 +22,7 @@ The code will be written using whatever language the writer prefers as the main 
 ### Sorting
 - [Bubble sort](/Sorting/bubbleSort)
 - [Selection sort](/Sorting/selectionSort)
+- [Insertion sort](/Sorting/insertionSort)
 
 ### Linked-List
 - [Reverse a linked-list](/LinkedList/reverseList)

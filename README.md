@@ -25,6 +25,7 @@ The code will be written using whatever language the writer prefers as the main 
 - [Insertion sort](/Sorting/insertionSort)
 - [Quick sort](/Sorting/quickSort)
 - [Merge sort](/Sorting/mergeSort)
+- [Heap sort](/Sorting/heapSort)
 
 ### Linked-List
 - [Reverse a linked-list](/LinkedList/reverseList)

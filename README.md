@@ -35,6 +35,10 @@ The code will be written using whatever language the writer prefers as the main 
 - [Implement a stack using an array](/Stack/ArrayStack)
 - [Are parenthesis balanced](/Stack/BalancedParenthesis)
 
+### Graphs
+- [Represent a graph using a matrix](/Graph/GraphMatrix)
+- [Represent a graph using a list](/Graph/GraphList)
+
 ### Dynamic Programming
 - [Best price for rod](/DynamicProgramming/rodCutting)
 

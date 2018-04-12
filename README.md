@@ -39,6 +39,9 @@ The code will be written using whatever language the writer prefers as the main 
 - [Represent a graph using a matrix](/Graph/GraphMatrix)
 - [Represent a graph using a list](/Graph/GraphList)
 
+### Trees
+- [Binary Search Tree](/Trees/BinarySearchTree)
+
 ### Dynamic Programming
 - [Best price for rod](/DynamicProgramming/rodCutting)
 

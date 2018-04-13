@@ -45,6 +45,7 @@ The code will be written using whatever language the writer prefers as the main 
 ### Dynamic Programming
 - [Best price for rod](/DynamicProgramming/rodCutting)
 - [Calculate Binomial Coefficient](/DynamicProgramming/binomialCoeff)
+- [0-1 Knapsack](/DynamicProgramming/01Knapsack)
 
 ## Contributing
 
